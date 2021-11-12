@@ -1,0 +1,12 @@
+type Query {
+  movies: [Movie]
+}
+type Mutation {
+  createMutation: Movie
+}
+type Movie {
+  id: String
+  title: String
+  description: String
+  year: Int
+}

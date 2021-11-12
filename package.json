@@ -1,0 +1,21 @@
+{
+  "name": "graphql-express-architectural",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/graphql-file-loader": "^7.3.3",
+    "@graphql-tools/load": "^7.4.1",
+    "@graphql-tools/schema": "^8.3.1",
+    "apollo-server-express": "^3.5.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "graphql": "^16.0.1",
+    "mongoose": "^6.0.12"
+  }
+}
